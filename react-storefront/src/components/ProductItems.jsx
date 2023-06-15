@@ -1,5 +1,6 @@
 import React from "react";
 import watch from "../assets/watch.jpg";
+import { SfButton, SfIconShoppingCart } from "@storefront-ui/react";
 
 export default function ProductItems() {
   const productCount = 6;
@@ -16,11 +17,19 @@ export default function ProductItems() {
                 <div className="default-container h-32 w-32 border border-gray-200 rounded-md">
                   <img src={watch} alt="Watch" />
                 </div>
-                <div  className="ml-5 w-52">
-                  <div>Smartwatch Fitness Tracker</div>
-                  <div className=" text-xs">
-                    Blood pressure monitor + Activity tracker + Phone call +
-                    Heart rate monitor
+                <div className=" ml-3 w-52">
+                  <div className="flex flex-col justify-between h-full">
+                    <div>
+                      <div>Smartwatch Fitness Tracker</div>
+                      <div className=" text-xs">
+                        Blood pressure monitor + Activity tracker + Phone call +
+                        Heart rate monitor
+                      </div>
+                    </div>
+                    <div className="flex justify-between">
+                        <div className=" font-bold">$2,345.99</div>
+                        <SfButton className=" bg-purple-600 hover:bg-purple-800" size="sm"><SfIconShoppingCart/> Add to Cart</SfButton>
+                    </div>
                   </div>
                 </div>
               </div>
