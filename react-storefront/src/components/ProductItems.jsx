@@ -16,7 +16,7 @@ export default function ProductItems() {
               <div className="flex m-3">
                 <div className="default-container h-32 w-32 border border-gray-200 rounded-md relative">
                   <img src={watch} alt="Watch" />
-                  <div className=" default-container h-6 w-6 absolute rounded-full border border-purple-600 text-purple-600 bottom-1 right-1">
+                  <div className=" cursor-pointer default-container h-6 w-6 absolute rounded-full border border-purple-600 text-purple-600 bottom-1 right-1">
                     <SfIconFavorite size="xs"/>
                 </div>
                 </div>
