@@ -20,7 +20,7 @@ export default function ProductItems() {
                     <SfIconFavorite size="xs"/>
                 </div>
                 </div>
-                <div className=" ml-3 w-52">
+                <div className=" ml-3 w-56">
                   <div className="flex flex-col justify-between h-full">
                     <div>
                       <div>Smartwatch Fitness Tracker</div>
