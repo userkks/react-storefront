@@ -5,7 +5,7 @@ import { SfIconExpandMore, SfIconFavorite, SfIconLocationOnFilled, SfIconPerson,
 export default function Header() {
   return (
     <div className="w-full flex flex-col items-center">
-      <div className=" w-4/5 flex items-center justify-evenly border-b border-gray-300 py-4">
+      <div className=" w-4/5 flex items-center justify-evenly border-b border-gray-200 py-4">
         <div className=" default-container w-20">
           <img src={logo} alt="Brand logo" />
         </div>
